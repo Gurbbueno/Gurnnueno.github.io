@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <title>BestStyle.com.br</title>
+        <link rel="stylesheet" href="./css/css.css">
+        <link rel = "shortcut icon" type = "imagem/x-icon" href ="./imagens/icones/bag-handle.svg"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="conteinerCabecalho">
+            <div class="cabecalho">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img id="logoSit"src="./imagens/Logo Best Style 4.png"alt="logo Best Style">
+                    </a>
+                </div>
+                <div class="busca">
+                    <form method="" action="">
+                        <input id="busca"placeholder="Buscar" type="search">
+                        <button id="botaoBusca"type="submit"><ion-icon name="search-outline"></ion-icon></button>
+                    </form>
+                </div>
+                <div class="loginOuCadastro">
+                    <a id="login" href="./Pagina_do_Login.html">
+                        <ion-icon class="iconiLogin"name="person-circle"></ion-icon>
+                        <span>Entre ou cadastre-se</span>
+                    </a>
+                    <a id="sacola" href="./Pagina_Sacola_de_Compras.html">
+                        <ion-icon class="iconiSacola" name="bag-handle"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteinerAbas">    
+            <div class="abasMenu">
+                    <ul class="abas">
+                        <li>
+                            <a class="estiloAbas" href="./index.html">home</a>
+                        </li>
+                        <li>
+                            <a class="estiloAbas"href="./Pagina_Sobre.html">sobre</a>
+                        </li>
+                        <li>
+                            <a class="estiloAbas"href="./Pagina_Produtos_Masculinos.html">masculino</a>
+                        </li>
+                        <li>
+                            <a class="estiloAbas"href="./Pagina_Produtos_Feminino.html">feminino</a>
+                        </li>
+                        <li>
+                            <a class="estiloAbas"href="#">contato</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="conteinerFinalizarPedido">
+            <div class="finalizarPedido">
+                <div class="infoPedidoFinal">
+                    <div class="tituloFinalizarPedido">
+                        <h1>Meu Pedido</h1>
+                    </div>
+                    <div class="conteudoFinalizarPedido">
+                        <div class="detalhesCompraFinalizarPedido">
+                            <div class="titulosConteudoFinalizarPedido">
+                                <span class="tituloConteudoFinalizarPedido_Produto styleTitulosConteudoFinalizarPedido">produto</span>
+                                <span class="tituloConteudoFinalizarPedido_Total styleTitulosConteudoFinalizarPedido">total</span>
+                            </div>
+                            <div class="FinalizarPedidoInfo">
+                                <div class="produtoFinalizarPedi">
+                                    <div class="detalherProdutoFinalizarPedido">
+                                        <a href="./Pagina_Produto_1.html">
+                                        <span>Camiseta manga curta<br>estampa nave espacial</span>
+                                        <br><small>Cor: Preto</small>
+                                        </a>
+                                    </div>
+                                    <div class="precoProdutoFinalizarPedido">
+                                        <span>R$49,90</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="FinalizarPedidoInfo">
+                                <div class="produtoFinalizarPedi">
+                                    <div class="detalherProdutoFinalizarPedido">
+                                        <a href="./Pagina_Produto_1.html">
+                                        <span>Moletom capuz<br>ESSENTIALS 3-STRIPES</span>
+                                        <br><small>Cor: Preto</small>
+                                        </a>
+                                    </div>
+                                    <div class="precoProdutoFinalizarPedido">
+                                        <span>R$249,99</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="FinalizarPedidoInfo">
+                                <div class="produtoFinalizarPedi">
+                                    <div class="detalherProdutoFinalizarPedido">
+                                        <a href="./Pagina_Produto_1.html">
+                                        <span>Camiseta manga curta<br>estampa logo nasa<br>estrelado</span>
+                                        <br><small>Cor: Preto</small>
+                                        </a>
+                                    </div>
+                                    <div class="precoProdutoFinalizarPedido">
+                                        <span>R$130,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detalhesEntregaProduto">
+                        <div class="tituloEntregaFinalizarPedido">
+                            <h1>Endereço de Entrega</h1>
+                        </div>
+                        <div class="FormularioDeEntrega">
+                            <div id="form_Nome">
+                                <input class="formEntrega_Nome"type="text"name="nome"placeholder="Nome:">
+                            </div>
+                            <div id="form_Endereco">
+                                <input class="formEntrega_Endereco"type="text"name="endereço"placeholder="Endereço:">
+                            </div>
+                            <div id="form_Cidade_Estado_Cep">
+                                <input class="formEntrega_Cidade"type="text"name="cidade"placeholder="Cidade:">
+                                <input class="formEntrega_Estado"type="text"name="estado"placeholder="Estado:">
+                                <input class="formEntrega_Cep"type="text"name="cep"placeholder="CEP:">
+                            </div>
+                            <div id="form_Tel_Cpf_Rg">
+                                <input class="formEntrega_Tel"type="tel" name="telefone"placeholder="Telefone:">
+                                <input class="formEntrega_Cpf"type="text"name="cpf"placeholder="CPF:">
+                                <input class="formEntrega_Rg"type="text"name="rg"placeholder="RG:">
+                            </div>
+                            <div id="form_Email">
+                                <input class="formEntrega_Email" type="email" name="email" placeholder="E-mail cadastrado:">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="infoFinalizarPedido">
+                    <div class="tituloInfoCompra">
+                        <h4>Resumo da Compra</h4>
+                    </div>
+                    <div id="subtotal"class="subtotal styleTotalPrecosInfoCompra">
+                        <span>Subtotal</span>
+                        <span>R$00,00</span>
+                    </div>
+                    <div id="descontos"class="styleTotalPrecosInfoCompra">
+                        <span>Descontos</span>
+                        <span>R$00,00</span>
+                    </div>
+                    <div id="cupom"class="styleTotalPrecosInfoCompra">
+                        <span>Cupom</span>
+                        <span>R$00,00</span>
+                    </div>
+                    <div id="economizou"class="styleEconomizouInfoCompra">
+                        <span>Economizou</span>
+                        <span>R$00,00</span>
+                    </div>
+                    <div id="total"class="styleTotalInfoCompra">
+                        <span>Total</span>
+                        <span>R$00,00</span>
+                    </div>
+                    <div class="cupomInfoCompra">
+                        <span>Cupom </span>
+                        <form>
+                            <input class="formCupom"type="text"name="cep"placeholder="Cupom">
+                            <button class="btnOKCupom" type="submit">OK</button>
+                        </form>
+                    </div>
+                    <div id="modoDePagamento">
+                        <div class="titutoMododePagamento">
+                            <h4>Forma de Pagamento </h4>
+                        </div>
+                        <form>
+                            <div id="BoletoBancário" class="styleBotaoPagamentoRadio">
+                                <input in="BoletoBancário"type="radio" name="pagamento">
+                                <label for="BoletoBancário">Boleto Bancário</label>
+                            </div>
+                            <div id="CartãoDeCrédido"class="styleBotaoPagamentoRadio">
+                                <input in="CartãoDeCrédido"type="radio" name="pagamento">
+                                <label for="CartãoDeCrédido">Cartão de Crédido</label>
+                            </div>
+                            <div id="CartãoDeDébito"class="styleBotaoPagamentoRadio">
+                                <input in="CartãoDeDébito"type="radio" name="pagamento">
+                                <label for="CartãoDeDébito">Cartão de Débito</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="btnFinalizarCompraInfoCompra">
+                        <a href="#">
+                            <button type="submit">
+                                Finalizar Compra
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="conteinerRodape">
+            <div class="rodape">
+                <div class="rodapeLogoC">
+                    <a href="./index.html">
+                        <img class="logorodape"src="./imagens/Logo Best Style 4.png">
+                    </a>
+                </div>
+                <div class="conteinerRodapeRedes">
+                    <a href="#" class="redesRodape">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#" class="redesRodape">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#" class="redesRodape">
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                </div>
+                <div class="conteinerAtalhosRodape"> 
+                    <ul class="atalhosRodape">
+                        <li>
+                            <a class="estiloAtalhosRodape"href="#">sobre</a>
+                        </li>
+                        <li>
+                            <a class="estiloAtalhosRodape"href="#">contato</a>
+                        </li>
+                        <li>
+                            <a class="estiloAtalhosRodape"href="#">home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    </body>
+    
+</html>
